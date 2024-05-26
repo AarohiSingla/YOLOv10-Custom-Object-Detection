@@ -3,6 +3,8 @@
 ### Environment Setup
 ##### This code is tested on python 3.9
 
+##### Video tutorial: https://youtu.be/Dmv4EVBuCTQ
+
 Step -1 :  git clone https://github.com/THU-MIG/yolov10.git
 
 Step -2 :  cd yolov10
@@ -13,7 +15,7 @@ Step -4 : Download yolov10 pretrained weights from official repo (https://github
 
 Step -5 : Test Pretrained YOLOv10 model using this command: 
 
-!yolo task=detect mode=predict conf=0.25 save=True model=../weights/yolov10n.pt source=test_images/1.jpg
+##### !yolo task=detect mode=predict conf=0.25 save=True model=../weights/yolov10n.pt source=test_images/1.jpg
 
 
 ##### Train Custom model:
