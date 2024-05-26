@@ -1,0 +1,6 @@
+train: custom_dataset/dataset/train/images
+val: custom_dataset/dataset/valid/images
+test: custom_dataset/dataset/test/images
+
+nc: 1
+names: ['licence']
